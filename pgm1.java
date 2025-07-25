@@ -13,23 +13,25 @@ public class pgm1 {
         int mark3=sc.nextInt();
         int total=mark1+mark2+mark3;
         int avg=total/3;
+        System.out.println("\nDetails----");
+        System.out.println("Student Name: "+name);
         System.out.println("The total is: "+total);
         System.out.println("The avg is: "+avg);
         if(avg>=85)
         {
-          System.out.println("A"); 
+          System.out.println("Grade: A"); 
         }
         else if(avg>=65)
         {
-            System.out.println("B");
+            System.out.println("Grade: B");
         }
         else if(avg>=30)
         {
-          System.out.println("C");  
+          System.out.println("Grade: C");  
         }
          else
          {
-            System.out.println("Fail");  
+            System.out.println("Grade: Fail");  
          }
     }
     
