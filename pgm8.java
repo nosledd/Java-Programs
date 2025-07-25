@@ -40,7 +40,7 @@ class pgm8
     String n=sc.nextLine();
     System.out.println("Enter Salary: ");
     int s=sc.nextInt();
-     System.out.println();
+    System.out.println();
     pay p=new pay(n,s);
     p.calculate();
     p.display();
