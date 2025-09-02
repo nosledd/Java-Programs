@@ -10,12 +10,12 @@ public class pgm5 {
         a[i]=sc.nextInt();
         for(int i=0;i<n;i++)
         {
-         if (a[a[i]]!=i)
+        if (a[a[i]]!=i)
          {
           System.out.println("Not Mirror");
           System.exit(0);
          }
-        } 
-        System.out.println("Array is Mirror");
+        }
+        System.out.println("Array is Mirror");   
     }    
 }
