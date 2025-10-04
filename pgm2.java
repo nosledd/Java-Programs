@@ -9,19 +9,19 @@ public class pgm2 {
         int result;
         for(int i=1;i<=4;i++) {
         System.out.println("Choose Operation: + - * / ");
-        char op=sc.next().charAt(0);
+        String op=sc.next();
         switch(op)
         {
-            case'+':result=n1+n2;
+            case"+":result=n1+n2;
                     System.out.println("Answer="+result );
                     break;
-            case'-':result=n1-n2;
+            case"-":result=n1-n2;
                     System.out.println("Answer="+result );
                     break;
-            case'*':result=n1*n2;
+            case"*":result=n1*n2;
                     System.out.println("Answer="+result );
                     break;
-            case'/':if(n2==0)
+            case"/":if(n2==0)
                     break;
                     else 
                     result=n1/n2;
@@ -31,10 +31,9 @@ public class pgm2 {
             System.exit(0);
         }
 
-    } 
+     } 
 
-    }
-
-    
+  }
+  
 }
 
